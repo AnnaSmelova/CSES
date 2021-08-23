@@ -25,10 +25,11 @@ Output:
 4
 '''
 
-def main():
+def solution_2():
     n = int(input())
     nums = map(int, input().split(' '))
     n_nums = range(1,n+1)
     print(list((set(n_nums) - set(nums)))[0])
 
-main()
+solution_2()
+

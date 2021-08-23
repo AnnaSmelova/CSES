@@ -28,7 +28,7 @@ Output:
 5
 '''
 
-def main():
+def solution_4():
     n = int(input())
     a = list(map(int, input().split(' ')))
     c = 0
@@ -38,5 +38,5 @@ def main():
             a[i+1]=a[i]
     print(c)
 
-main()
+solution_4()
 

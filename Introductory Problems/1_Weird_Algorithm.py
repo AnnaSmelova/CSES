@@ -22,7 +22,7 @@ Output: 3 10 5 16 8 4 2 1
 '''
 
 
-def main():
+def solution_1():
     n = int(input())
     while True:
         if n % 2 == 0:
@@ -35,5 +35,5 @@ def main():
             print(n, end=' ')
             n = n * 3 + 1
 
-main()
+solution_1()
 

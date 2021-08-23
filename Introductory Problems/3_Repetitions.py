@@ -23,7 +23,7 @@ Output:
 3
 '''
 
-def main():
+def solution_3():
     s = input()
     count = 1
     max_count = 0
@@ -38,4 +38,4 @@ def main():
     max_count = max(count, max_count)
     print(max_count)
 
-main()
+solution_3()

@@ -28,18 +28,6 @@ Output:
 550
 1056
 1848
-Introductory Problems
-...
-Increasing Array
-Permutations
-Number Spiral
-Two Knights
-Two Sets
-Bit Strings
-Trailing Zeros
-Coin Piles
-...
-Your submissions
 '''
 
 
@@ -56,11 +44,11 @@ def get_bad_points_count(n):
         return int((n**4 - n**2 - 8 * (n - 4)**2 - 40 * (n - 4) - 48) / 2)
 
 
-def main():
+def solution_7():
     n = int(input())
     for k in range(1, n + 1):
         print(get_bad_points_count(k))
 
 
-main()
+solution_7()
 

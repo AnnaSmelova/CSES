@@ -50,11 +50,12 @@ def get_num(i, j):
 
 
 
-def main():
+def solution_6():
     t = int(input())
     for _ in range(t):
         y, x = map(int, input().split())
         print(get_num(y, x))
 
 
-main()
+solution_6()
+
